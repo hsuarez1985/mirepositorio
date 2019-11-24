@@ -19,20 +19,33 @@ información:
     */
 
     //declarar varibles
-
+    let metro;
+    let centímetros;
+    let pies;
+    let pulgadas;
+    let yarda;
 
 
     //ingreso datos
-
-
+    metro= prompt("ingresa los metros a convertir");
 
     //procesamiento
-
+    metros= parseInt(metro);
+    centimetros= metro*100;
+    pulgada= 100*2.54;
+    pie= 12*pulgada;
+    yarda= 3*pie;
 
 
 
     //salida datos
-
+    document.write("el equivalente en centimetros es :" + centimetros);
+    document.write("<br>");
+    document.write("el equivalente en pulgada es :" + pulgada);
+    document.write("<br>");
+    document.write("el equivalente en pie es :" + pie);
+    document.write("<br>");
+    document.write("el equivalente en yarda es :" + yarda);
 
     </script>
 

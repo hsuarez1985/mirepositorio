@@ -7,11 +7,25 @@
     <script>
 
         /*
-        Se desea a calcular la distancia reecorrida (m) por un móvil que tiene velocidad constant e (m/s) durante un t iempo T (Sg), considerar que es un MRU (Movimiento Rectilíneo Uniforme)
+        Se desea a calcular la distancia reecorrida (m) por un móvil que tiene velocidad constant e 
+        (m/s) durante un t iempo T (Sg), considerar que es un MRU (Movimiento Rectilíneo Uniforme)
 
         distancia=velocidad * tiempo
 
         */
+let distancia;
+let velocidad;
+let tiempo;
+
+velocidad=prompt("ingrese la velocidad del movil");
+tiempo=prompt("ingrese el tiempo en segundos del movil");
+
+velocidad=parseInt(velocidad);
+tiempo=parseInt(tiempo);
+
+distancia= velocidad*tiempo;
+
+document.write("la distancia recorrida por el movil es de:" + distancia)
 
 
     </script>
